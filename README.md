@@ -45,7 +45,7 @@ reference FASTAs and intermediate stats files.
 | [`2019_12_22_Maryam_base_editing/`](2019_12_22_Maryam_base_editing/) | Detailed two-target (Pal1, Pal3) study across ABE/CBE editor variants with directional LEFT/RIGHT/BOTH/NONE calls. |
 | [`2020_02_2016/`](2020_02_2016/) | Larger pooled palindrome library screen across WT / ABE / CBE samples. |
 | [`2021_03_19_twist_library_generation/`](2021_03_19_twist_library_generation/) | **Design** of the Twist v1 oligo library; produces ordered FASTAs. |
-| [`2021_08_22_twist_v2/`](2021_08_22_twist_v2/) | **Design + reference setup** for Twist v2 (refined tracrRNA scaffolds, 17/18bp guides, MARC1 references). |
+| [`2021_08_22_twist_v2/`](2021_08_22_twist_v2/) | **Design + reference setup** for Twist v2 (refined tracrRNA scaffolds, 17/18bp guides, references). |
 | [`2022_07_18_base_editing_t7_rnf2/`](2022_07_18_base_editing_t7_rnf2/) | Per-position editing heatmaps for the T7 and RNF2 palindromic targets across four pig-UMI samples. |
 | [`2023_02_05_stats_to_base_editing/`](2023_02_05_stats_to_base_editing/) | **Pipeline:** converts aligner stats files into per-target editing event tables (Python + Scala + R). The "from stats to tables" hub. |
 | [`2023_07_24_base_editing_heatmap_counts/`](2023_07_24_base_editing_heatmap_counts/) | Browser-based interactive D3.js heatmap viewer (`index.html`) for exploring editing patterns by sample and position. |
@@ -146,7 +146,6 @@ on each other, we suggest:
 | **NN** | "Non-NEITHER" — analyses restricted to reads with at least one edit. |
 | **FE** | Folding energy (kcal/mol) for the predicted RNA secondary structure of the guide. |
 | **Twist v1 / v2** | Two generations of pooled oligo libraries synthesized by Twist Bioscience to test sequence-context effects. |
-| **MARC1** | Reference set used for single-cell barcoding experiments. |
 | **stats file** | Per-read output from the custom aligner: alignment quality, UMI, target match, and per-position events. |
 
 ## License
