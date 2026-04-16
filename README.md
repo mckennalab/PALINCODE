@@ -1,4 +1,4 @@
-# palindrome_base_editing
+# Palincode GitHub
 
 Analyses, library designs, and figures for a study of CRISPR base editing on
 **palindromic target sequences**. The repository spans the full project
